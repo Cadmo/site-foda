@@ -5,10 +5,52 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Site Foda</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+<style>
+    h1 {
+        color:palevioletred;
+    
+    }
+    p {
+        color: darkcyan;
+    }
+    input {
+        color: blue;
+        
+        
+    }
+</style>
+<script>
+function EnviaOla() {
+    alert("clique em ok");
+
+}
+function PerguntaNome() {
+    nome = prompt("Qual é seu nome ?", "");
+    alert("Seu nome é " + nome );
+    sobrenome = prompt("qual é seu sobrenome ?" , "");
+    alert("Seu sobrenome é " + nome + sobrenome);
+
+}
+    
+</script>
 </head>
 <body>
 <h1>Compre esse PC</h1>  
-<p>Esse Pc é barato e muito potente<br>possui um terabyte de HD<br>16g ram </p>
+<p>Esse Pc é barato e muito potente<br>possui um <strong>terabyte de HD</strong> <br>16g ram </p>
+<p>-</p>
+<em>HTML TAG.</em>
+<sub>html tag.</sub>
+<input type="botton">
+<p>-</p>
+<p>-</p>
+<small>this is an example</small>
+<p>-</p>
+<input type="button" onclick=EnviaOla() value="Enviar Mensagem">
+<input type="button" onclick=PerguntaNome() value="Qual é seu nome ?">
+<p> <a href="https://www.youtube.com/watch?v=pXKF7LFbEDw" title="clique aqui"> mini pc </a> </p>
+<blockquote class="pullquote"> 
+<p>"esse é um teste de blockquote."</p>
+</blockquote>
 <img src="imagens/mini-pc.png">
 
 </body>
